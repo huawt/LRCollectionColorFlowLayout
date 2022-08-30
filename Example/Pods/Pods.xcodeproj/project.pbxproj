@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13A33A58846882581797B435D51246CE /* Pods-LRCollectionColorFlowLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFC542C9B3A352C4AA827F92D301E56 /* Pods-LRCollectionColorFlowLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D738456EF23B2530E835D0352C177FF /* LRCollectionColorFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F899624E0C6FFA666969202171BDFFC /* LRCollectionColorFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33EA05E9EFCD344A1D294CC31D6C59D9 /* Pods-LRCollectionColorFlowLayout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0E9E3E8A91DB83E5196679ECC705972 /* Pods-LRCollectionColorFlowLayout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		357B0AA0DB800B4716F516378254E684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		754C7F63E7734BA4EEFC1EDA44ECDB58 /* LRCollectionColorFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB83006D4173E9D8D48544C46D366DE3 /* LRCollectionColorFlowLayout-dummy.m */; };
+		8983A3F07140E3EC67B69DA08E86FD78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C56142C2A4C4E31DB67F95A4C67C2EA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DA4AD4BE4D969F07A1F8E8A2E6717647 /* LRCollectionColorFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E85C3A80DDEB13B8265DB93C9F165EE /* LRCollectionColorFlowLayout.swift */; };
+		DE92B4B17069D3CDBD695D1A05DC75CC /* Pods-LRCollectionColorFlowLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8958C374A4631A027BEE50A9200E9F /* Pods-LRCollectionColorFlowLayout_Example-dummy.m */; };
+		EA03B0C25E574DB0275B1C6873376521 /* LRCollectionColorFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B20F4FAFB1959D1958B54AA11C9A8C17 /* LRCollectionColorFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE33A22E3AC1417B03965E51606D0AAE /* Pods-LRCollectionColorFlowLayout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FCB08AB58FB71CA2316A960A467EB3 /* Pods-LRCollectionColorFlowLayout_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B5ECAE3FCABA8EBA38A23A635156594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E9E560BA1D4865DFD9D72D033793285;
+			remoteInfo = "Pods-LRCollectionColorFlowLayout_Example";
+		};
+		5684F58F5FEB43E4EC8C2944C9AC47B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 577651E4AFE1F4942686A00C16E03DC2;
+			remoteInfo = LRCollectionColorFlowLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11D4A5EA367BF03CA55B62BF00A01735 /* Pods-LRCollectionColorFlowLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LRCollectionColorFlowLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1EDD1D6FF495305C4F7DB9BCC5503BCA /* LRCollectionColorFlowLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LRCollectionColorFlowLayout; path = LRCollectionColorFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F38C61769B20BD955DE4B15163F0CD8 /* LRCollectionColorFlowLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LRCollectionColorFlowLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		320F8D7A96ED94DA0506E11E23C8C033 /* Pods-LRCollectionColorFlowLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LRCollectionColorFlowLayout_Tests.modulemap"; sourceTree = "<group>"; };
+		342CFF800BD11255A0DA33E935094A1D /* Pods-LRCollectionColorFlowLayout_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRCollectionColorFlowLayout_Tests-Info.plist"; sourceTree = "<group>"; };
+		3BB53D397D86EDCA228D517837867226 /* Pods-LRCollectionColorFlowLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRCollectionColorFlowLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D8958C374A4631A027BEE50A9200E9F /* Pods-LRCollectionColorFlowLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRCollectionColorFlowLayout_Example-dummy.m"; sourceTree = "<group>"; };
+		5237F4E1A13B99856BAA359ADE1D1D2A /* Pods-LRCollectionColorFlowLayout_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRCollectionColorFlowLayout_Example-Info.plist"; sourceTree = "<group>"; };
+		5C14A203D900B26208DEB2B2A98F2E33 /* LRCollectionColorFlowLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRCollectionColorFlowLayout.debug.xcconfig; sourceTree = "<group>"; };
+		5E85C3A80DDEB13B8265DB93C9F165EE /* LRCollectionColorFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LRCollectionColorFlowLayout.swift; path = LRCollectionColorFlowLayout/Classes/LRCollectionColorFlowLayout.swift; sourceTree = "<group>"; };
+		64FCB08AB58FB71CA2316A960A467EB3 /* Pods-LRCollectionColorFlowLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRCollectionColorFlowLayout_Tests-dummy.m"; sourceTree = "<group>"; };
+		6B1059FB9DC7FCECF6116FB1A6839E59 /* Pods-LRCollectionColorFlowLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRCollectionColorFlowLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70A100C7D1A568EF044BF9AC5D7D49AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74ACCA2CA8F35741B7B67A2EB2E6CDA9 /* Pods-LRCollectionColorFlowLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRCollectionColorFlowLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7C9E3140A1973907A03550BAEEFEEFAA /* Pods-LRCollectionColorFlowLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRCollectionColorFlowLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7FE02A3636E59211A363483BA3E156DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		90C8F7CB76D2CE8E8A97F4CE73B08F4F /* LRCollectionColorFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRCollectionColorFlowLayout-prefix.pch"; sourceTree = "<group>"; };
+		91FC6E16CB9BDE7CD1284CDC73276DFA /* Pods-LRCollectionColorFlowLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRCollectionColorFlowLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F899624E0C6FFA666969202171BDFFC /* LRCollectionColorFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRCollectionColorFlowLayout.h; path = LRCollectionColorFlowLayout/Classes/LRCollectionColorFlowLayout.h; sourceTree = "<group>"; };
+		A6F04F9C9AE83B0971E838811A5D0AC5 /* Pods-LRCollectionColorFlowLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LRCollectionColorFlowLayout_Example.modulemap"; sourceTree = "<group>"; };
+		B0E9E3E8A91DB83E5196679ECC705972 /* Pods-LRCollectionColorFlowLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LRCollectionColorFlowLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B20F4FAFB1959D1958B54AA11C9A8C17 /* LRCollectionColorFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRCollectionColorFlowLayout-umbrella.h"; sourceTree = "<group>"; };
+		B43C490F0A03317760D641AD3D076F96 /* Pods-LRCollectionColorFlowLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRCollectionColorFlowLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B7433B179F74FADE4C7E1D452ABBB7BD /* Pods-LRCollectionColorFlowLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRCollectionColorFlowLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C2255429CD01052A1F7D145185880929 /* Pods-LRCollectionColorFlowLayout_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LRCollectionColorFlowLayout_Example"; path = Pods_LRCollectionColorFlowLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C57DA4DFC116396D6A625A677D1AE3 /* Pods-LRCollectionColorFlowLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRCollectionColorFlowLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CC99BFE446760A72475D047DE19675EA /* LRCollectionColorFlowLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRCollectionColorFlowLayout.release.xcconfig; sourceTree = "<group>"; };
+		CDFC542C9B3A352C4AA827F92D301E56 /* Pods-LRCollectionColorFlowLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LRCollectionColorFlowLayout_Example-umbrella.h"; sourceTree = "<group>"; };
+		D5ECCFD397A37FB0A6C9B7F68EA5BDEA /* LRCollectionColorFlowLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LRCollectionColorFlowLayout-Info.plist"; sourceTree = "<group>"; };
+		DB83006D4173E9D8D48544C46D366DE3 /* LRCollectionColorFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LRCollectionColorFlowLayout-dummy.m"; sourceTree = "<group>"; };
+		F7335139AB4308BD0C0619FD3B6A5745 /* LRCollectionColorFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LRCollectionColorFlowLayout.modulemap; sourceTree = "<group>"; };
+		FFFF20DE95B33AF9F17FAC85266DF07C /* Pods-LRCollectionColorFlowLayout_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LRCollectionColorFlowLayout_Tests"; path = Pods_LRCollectionColorFlowLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44C97E0776908EAD1ADBE6EBA9E5E210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357B0AA0DB800B4716F516378254E684 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FAB153B94C9F76D26AACF659FCF9267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56142C2A4C4E31DB67F95A4C67C2EA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F9CC801C4D004D7A6AC4E9B2219EE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8983A3F07140E3EC67B69DA08E86FD78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D50E46328D90C26D380F30AD5BD65D /* LRCollectionColorFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				9F899624E0C6FFA666969202171BDFFC /* LRCollectionColorFlowLayout.h */,
+				5E85C3A80DDEB13B8265DB93C9F165EE /* LRCollectionColorFlowLayout.swift */,
+				D269FE1F313A399EB5BD5917AB1B9318 /* Pod */,
+				216452AE327D0E7F69B5FA77D7A7062D /* Support Files */,
+			);
+			name = LRCollectionColorFlowLayout;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0E8CB00915D831FA1492EFC5B886F414 /* Pods-LRCollectionColorFlowLayout_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				320F8D7A96ED94DA0506E11E23C8C033 /* Pods-LRCollectionColorFlowLayout_Tests.modulemap */,
+				3BB53D397D86EDCA228D517837867226 /* Pods-LRCollectionColorFlowLayout_Tests-acknowledgements.markdown */,
+				B7433B179F74FADE4C7E1D452ABBB7BD /* Pods-LRCollectionColorFlowLayout_Tests-acknowledgements.plist */,
+				64FCB08AB58FB71CA2316A960A467EB3 /* Pods-LRCollectionColorFlowLayout_Tests-dummy.m */,
+				342CFF800BD11255A0DA33E935094A1D /* Pods-LRCollectionColorFlowLayout_Tests-Info.plist */,
+				B0E9E3E8A91DB83E5196679ECC705972 /* Pods-LRCollectionColorFlowLayout_Tests-umbrella.h */,
+				91FC6E16CB9BDE7CD1284CDC73276DFA /* Pods-LRCollectionColorFlowLayout_Tests.debug.xcconfig */,
+				7C9E3140A1973907A03550BAEEFEEFAA /* Pods-LRCollectionColorFlowLayout_Tests.release.xcconfig */,
+			);
+			name = "Pods-LRCollectionColorFlowLayout_Tests";
+			path = "Target Support Files/Pods-LRCollectionColorFlowLayout_Tests";
+			sourceTree = "<group>";
+		};
+		1BF2048C0E088272C94635646180FBA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EDD1D6FF495305C4F7DB9BCC5503BCA /* LRCollectionColorFlowLayout */,
+				C2255429CD01052A1F7D145185880929 /* Pods-LRCollectionColorFlowLayout_Example */,
+				FFFF20DE95B33AF9F17FAC85266DF07C /* Pods-LRCollectionColorFlowLayout_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		216452AE327D0E7F69B5FA77D7A7062D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7335139AB4308BD0C0619FD3B6A5745 /* LRCollectionColorFlowLayout.modulemap */,
+				DB83006D4173E9D8D48544C46D366DE3 /* LRCollectionColorFlowLayout-dummy.m */,
+				D5ECCFD397A37FB0A6C9B7F68EA5BDEA /* LRCollectionColorFlowLayout-Info.plist */,
+				90C8F7CB76D2CE8E8A97F4CE73B08F4F /* LRCollectionColorFlowLayout-prefix.pch */,
+				B20F4FAFB1959D1958B54AA11C9A8C17 /* LRCollectionColorFlowLayout-umbrella.h */,
+				5C14A203D900B26208DEB2B2A98F2E33 /* LRCollectionColorFlowLayout.debug.xcconfig */,
+				CC99BFE446760A72475D047DE19675EA /* LRCollectionColorFlowLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LRCollectionColorFlowLayout";
+			sourceTree = "<group>";
+		};
+		44C5D0C84394D34060FE8385A8880ACB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62476E68CC34C6E677302D3695213A3E /* Pods-LRCollectionColorFlowLayout_Example */,
+				0E8CB00915D831FA1492EFC5B886F414 /* Pods-LRCollectionColorFlowLayout_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62476E68CC34C6E677302D3695213A3E /* Pods-LRCollectionColorFlowLayout_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A6F04F9C9AE83B0971E838811A5D0AC5 /* Pods-LRCollectionColorFlowLayout_Example.modulemap */,
+				6B1059FB9DC7FCECF6116FB1A6839E59 /* Pods-LRCollectionColorFlowLayout_Example-acknowledgements.markdown */,
+				B43C490F0A03317760D641AD3D076F96 /* Pods-LRCollectionColorFlowLayout_Example-acknowledgements.plist */,
+				4D8958C374A4631A027BEE50A9200E9F /* Pods-LRCollectionColorFlowLayout_Example-dummy.m */,
+				11D4A5EA367BF03CA55B62BF00A01735 /* Pods-LRCollectionColorFlowLayout_Example-frameworks.sh */,
+				5237F4E1A13B99856BAA359ADE1D1D2A /* Pods-LRCollectionColorFlowLayout_Example-Info.plist */,
+				CDFC542C9B3A352C4AA827F92D301E56 /* Pods-LRCollectionColorFlowLayout_Example-umbrella.h */,
+				74ACCA2CA8F35741B7B67A2EB2E6CDA9 /* Pods-LRCollectionColorFlowLayout_Example.debug.xcconfig */,
+				C9C57DA4DFC116396D6A625A677D1AE3 /* Pods-LRCollectionColorFlowLayout_Example.release.xcconfig */,
+			);
+			name = "Pods-LRCollectionColorFlowLayout_Example";
+			path = "Target Support Files/Pods-LRCollectionColorFlowLayout_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F84B191ADD3DD274D6E274CB925738FD /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1BF2048C0E088272C94635646180FBA6 /* Products */,
+				44C5D0C84394D34060FE8385A8880ACB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D269FE1F313A399EB5BD5917AB1B9318 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				70A100C7D1A568EF044BF9AC5D7D49AE /* LICENSE */,
+				2F38C61769B20BD955DE4B15163F0CD8 /* LRCollectionColorFlowLayout.podspec */,
+				7FE02A3636E59211A363483BA3E156DC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F84B191ADD3DD274D6E274CB925738FD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05D50E46328D90C26D380F30AD5BD65D /* LRCollectionColorFlowLayout */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		398141CD0FE4FE726B8B0D88871D5A31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A33A58846882581797B435D51246CE /* Pods-LRCollectionColorFlowLayout_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F727A82C8A3AE27894D3F706004F0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D738456EF23B2530E835D0352C177FF /* LRCollectionColorFlowLayout.h in Headers */,
+				EA03B0C25E574DB0275B1C6873376521 /* LRCollectionColorFlowLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CC1744F91A36A35EFA735EAAF7845A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EA05E9EFCD344A1D294CC31D6C59D9 /* Pods-LRCollectionColorFlowLayout_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E9E560BA1D4865DFD9D72D033793285 /* Pods-LRCollectionColorFlowLayout_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53AA093D51C023775B21A260C2A38E22 /* Build configuration list for PBXNativeTarget "Pods-LRCollectionColorFlowLayout_Example" */;
+			buildPhases = (
+				398141CD0FE4FE726B8B0D88871D5A31 /* Headers */,
+				6EC6FB13A06ECBEC9127CC2B13A47017 /* Sources */,
+				44C97E0776908EAD1ADBE6EBA9E5E210 /* Frameworks */,
+				E8F82BF07426E486D05CD3D3C6F52CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E4362692750FE9C34B25DD347CDBE81 /* PBXTargetDependency */,
+			);
+			name = "Pods-LRCollectionColorFlowLayout_Example";
+			productName = Pods_LRCollectionColorFlowLayout_Example;
+			productReference = C2255429CD01052A1F7D145185880929 /* Pods-LRCollectionColorFlowLayout_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		577651E4AFE1F4942686A00C16E03DC2 /* LRCollectionColorFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F2586404137B678F1856406DFBEF18 /* Build configuration list for PBXNativeTarget "LRCollectionColorFlowLayout" */;
+			buildPhases = (
+				39F727A82C8A3AE27894D3F706004F0F /* Headers */,
+				010302652B252B9D05ED671C74F086D4 /* Sources */,
+				B3F9CC801C4D004D7A6AC4E9B2219EE8 /* Frameworks */,
+				17F809A7EDEB1980587B04EACE1F3853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LRCollectionColorFlowLayout;
+			productName = LRCollectionColorFlowLayout;
+			productReference = 1EDD1D6FF495305C4F7DB9BCC5503BCA /* LRCollectionColorFlowLayout */;
+			productType = "com.apple.product-type.framework";
+		};
+		9940DC2499FF548EC0646B3491D4C4A8 /* Pods-LRCollectionColorFlowLayout_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B68FE93029FDAF6FE1B28063BF69714 /* Build configuration list for PBXNativeTarget "Pods-LRCollectionColorFlowLayout_Tests" */;
+			buildPhases = (
+				47CC1744F91A36A35EFA735EAAF7845A /* Headers */,
+				5B4801631D5AF4DFA823F67CD300930F /* Sources */,
+				5FAB153B94C9F76D26AACF659FCF9267 /* Frameworks */,
+				AB2F4DE48673F5CC6F80F13FF482011D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA51EC20642BA538EC36AEDE5A34269 /* PBXTargetDependency */,
+			);
+			name = "Pods-LRCollectionColorFlowLayout_Tests";
+			productName = Pods_LRCollectionColorFlowLayout_Tests;
+			productReference = FFFF20DE95B33AF9F17FAC85266DF07C /* Pods-LRCollectionColorFlowLayout_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1BF2048C0E088272C94635646180FBA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				577651E4AFE1F4942686A00C16E03DC2 /* LRCollectionColorFlowLayout */,
+				1E9E560BA1D4865DFD9D72D033793285 /* Pods-LRCollectionColorFlowLayout_Example */,
+				9940DC2499FF548EC0646B3491D4C4A8 /* Pods-LRCollectionColorFlowLayout_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17F809A7EDEB1980587B04EACE1F3853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2F4DE48673F5CC6F80F13FF482011D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F82BF07426E486D05CD3D3C6F52CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		010302652B252B9D05ED671C74F086D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4AD4BE4D969F07A1F8E8A2E6717647 /* LRCollectionColorFlowLayout.swift in Sources */,
+				754C7F63E7734BA4EEFC1EDA44ECDB58 /* LRCollectionColorFlowLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4801631D5AF4DFA823F67CD300930F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE33A22E3AC1417B03965E51606D0AAE /* Pods-LRCollectionColorFlowLayout_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC6FB13A06ECBEC9127CC2B13A47017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE92B4B17069D3CDBD695D1A05DC75CC /* Pods-LRCollectionColorFlowLayout_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E4362692750FE9C34B25DD347CDBE81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LRCollectionColorFlowLayout;
+			target = 577651E4AFE1F4942686A00C16E03DC2 /* LRCollectionColorFlowLayout */;
+			targetProxy = 5684F58F5FEB43E4EC8C2944C9AC47B6 /* PBXContainerItemProxy */;
+		};
+		FAA51EC20642BA538EC36AEDE5A34269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LRCollectionColorFlowLayout_Example";
+			target = 1E9E560BA1D4865DFD9D72D033793285 /* Pods-LRCollectionColorFlowLayout_Example */;
+			targetProxy = 2B5ECAE3FCABA8EBA38A23A635156594 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		459FCFD27395C0492C9DFC763ECC68D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74ACCA2CA8F35741B7B67A2EB2E6CDA9 /* Pods-LRCollectionColorFlowLayout_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LRCollectionColorFlowLayout_Example/Pods-LRCollectionColorFlowLayout_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LRCollectionColorFlowLayout_Example/Pods-LRCollectionColorFlowLayout_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A6AC3C49A718FA7CE0D463A69376F83C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC99BFE446760A72475D047DE19675EA /* LRCollectionColorFlowLayout.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LRCollectionColorFlowLayout/LRCollectionColorFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LRCollectionColorFlowLayout/LRCollectionColorFlowLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LRCollectionColorFlowLayout/LRCollectionColorFlowLayout.modulemap";
+				PRODUCT_MODULE_NAME = LRCollectionColorFlowLayout;
+				PRODUCT_NAME = LRCollectionColorFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEA59E321BFEAA32D6BAD25CFA4D151A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C9E3140A1973907A03550BAEEFEEFAA /* Pods-LRCollectionColorFlowLayout_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LRCollectionColorFlowLayout_Tests/Pods-LRCollectionColorFlowLayout_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LRCollectionColorFlowLayout_Tests/Pods-LRCollectionColorFlowLayout_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C54BCC340471B88563EDDA8C9F59F81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C14A203D900B26208DEB2B2A98F2E33 /* LRCollectionColorFlowLayout.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LRCollectionColorFlowLayout/LRCollectionColorFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LRCollectionColorFlowLayout/LRCollectionColorFlowLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LRCollectionColorFlowLayout/LRCollectionColorFlowLayout.modulemap";
+				PRODUCT_MODULE_NAME = LRCollectionColorFlowLayout;
+				PRODUCT_NAME = LRCollectionColorFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E01B51A01F23C83ED35F68301DA6B618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C57DA4DFC116396D6A625A677D1AE3 /* Pods-LRCollectionColorFlowLayout_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LRCollectionColorFlowLayout_Example/Pods-LRCollectionColorFlowLayout_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LRCollectionColorFlowLayout_Example/Pods-LRCollectionColorFlowLayout_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FEBA9717A64CC2FD8A99E7603828B42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91FC6E16CB9BDE7CD1284CDC73276DFA /* Pods-LRCollectionColorFlowLayout_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LRCollectionColorFlowLayout_Tests/Pods-LRCollectionColorFlowLayout_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LRCollectionColorFlowLayout_Tests/Pods-LRCollectionColorFlowLayout_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29F2586404137B678F1856406DFBEF18 /* Build configuration list for PBXNativeTarget "LRCollectionColorFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54BCC340471B88563EDDA8C9F59F81D /* Debug */,
+				A6AC3C49A718FA7CE0D463A69376F83C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53AA093D51C023775B21A260C2A38E22 /* Build configuration list for PBXNativeTarget "Pods-LRCollectionColorFlowLayout_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459FCFD27395C0492C9DFC763ECC68D5 /* Debug */,
+				E01B51A01F23C83ED35F68301DA6B618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B68FE93029FDAF6FE1B28063BF69714 /* Build configuration list for PBXNativeTarget "Pods-LRCollectionColorFlowLayout_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBA9717A64CC2FD8A99E7603828B42F /* Debug */,
+				BEA59E321BFEAA32D6BAD25CFA4D151A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

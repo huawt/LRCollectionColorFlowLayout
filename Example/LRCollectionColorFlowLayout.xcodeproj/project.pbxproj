@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		21F524D7C897D3801D5BB938 /* Pods-LRCollectionColorFlowLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRCollectionColorFlowLayout_Tests.release.xcconfig"; path = "Target Support Files/Pods-LRCollectionColorFlowLayout_Tests/Pods-LRCollectionColorFlowLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2C20F4C81D5B90649ED2110F /* Pods-LRCollectionColorFlowLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRCollectionColorFlowLayout_Example.debug.xcconfig"; path = "Target Support Files/Pods-LRCollectionColorFlowLayout_Example/Pods-LRCollectionColorFlowLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5867E745160D2C97DA6C0E25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5867E745160D2C97DA6C0E25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LRCollectionColorFlowLayout_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRCollectionColorFlowLayout_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +41,12 @@
 		607FACE51AFB9204008FA782 /* LRCollectionColorFlowLayout_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRCollectionColorFlowLayout_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		869A7C171F8BA326341DFA32 /* LRCollectionColorFlowLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LRCollectionColorFlowLayout.podspec; path = ../LRCollectionColorFlowLayout.podspec; sourceTree = "<group>"; };
+		869A7C171F8BA326341DFA32 /* LRCollectionColorFlowLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LRCollectionColorFlowLayout.podspec; path = ../LRCollectionColorFlowLayout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2FF3EDB303B616C672305EF /* Pods_LRCollectionColorFlowLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRCollectionColorFlowLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A669443EC21D98AF8CAF2A58 /* Pods_LRCollectionColorFlowLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRCollectionColorFlowLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC34E87589DC65E565EE33E /* Pods-LRCollectionColorFlowLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRCollectionColorFlowLayout_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LRCollectionColorFlowLayout_Tests/Pods-LRCollectionColorFlowLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7CA1B258565508C2A2ECC3D /* Pods-LRCollectionColorFlowLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRCollectionColorFlowLayout_Example.release.xcconfig"; path = "Target Support Files/Pods-LRCollectionColorFlowLayout_Example/Pods-LRCollectionColorFlowLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E2E45CD2B6E56EA9FDC16FB4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E2E45CD2B6E56EA9FDC16FB4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				BFC34E87589DC65E565EE33E /* Pods-LRCollectionColorFlowLayout_Tests.debug.xcconfig */,
 				21F524D7C897D3801D5BB938 /* Pods-LRCollectionColorFlowLayout_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,16 @@
+PODS:
+  - LRCollectionColorFlowLayout (0.1.0)
+
+DEPENDENCIES:
+  - LRCollectionColorFlowLayout (from `../`)
+
+EXTERNAL SOURCES:
+  LRCollectionColorFlowLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LRCollectionColorFlowLayout: f760614d0829a90eee47559153e1da5ebb81fb9e
+
+PODFILE CHECKSUM: d35af7ea7425d12ed5851b8643e679b363a9e397
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,6 @@
+framework module LRCollectionColorFlowLayout {
+  umbrella header "LRCollectionColorFlowLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}
