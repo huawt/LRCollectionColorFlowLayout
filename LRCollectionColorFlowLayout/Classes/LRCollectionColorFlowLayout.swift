@@ -29,29 +29,6 @@ public class LRLayerAppearance: NSObject {
     @objc optional func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, subInsetForSectionAt section: Int) -> UIEdgeInsets
 }
 
-extension LRCollectionViewDelegateFlowLayout {
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, backgroundColorForSectionAt section: Int) -> UIColor {
-        return UIColor.clear
-    }
-
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, containerColorForSectionAt section: Int) -> UIColor {
-        return UIColor.clear
-    }
-
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, subColorForSectionAt section: Int) -> UIColor {
-        return UIColor.clear
-    }
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, layerAppearanceForSectionAt section: Int) -> LRLayerAppearance {
-        return LRLayerAppearance()
-    }
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, containerInsetForSectionAt section: Int) -> UIEdgeInsets {
-        return .zero
-    }
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, subInsetForSectionAt section: Int) -> UIEdgeInsets {
-        return .zero
-    }
-}
-
 private class LRCollectionViewLayoutAttributes: UICollectionViewLayoutAttributes {
     var backgroundColor: UIColor = UIColor.clear
     var containerColor: UIColor = .clear
@@ -198,12 +175,12 @@ public class LRCollectionColorFlowLayout: UICollectionViewFlowLayout {
             let attr = LRCollectionViewLayoutAttributes(forDecorationViewOfKind: SectionBackground, with: IndexPath(item: 0, section: section))
             attr.frame = sectionFrame
             attr.zIndex = -1
-            attr.backgroundColor = delegate.collectionView(self.collectionView!, layout: self, backgroundColorForSectionAt: section)
-            attr.containerColor = delegate.collectionView(self.collectionView!, layout: self, containerColorForSectionAt: section)
-            attr.subColor = delegate.collectionView(self.collectionView!, layout: self, subColorForSectionAt: section)
-            attr.appearance = delegate.collectionView(self.collectionView!, layout: self, layerAppearanceForSectionAt: section)
-            attr.edgeInsets = delegate.collectionView(self.collectionView!, layout: self, containerInsetForSectionAt: section)
-            attr.subInsets = delegate.collectionView(self.collectionView!, layout: self, subInsetForSectionAt: section)
+            attr.backgroundColor = delegate.collectionView?(self.collectionView!, layout: self, backgroundColorForSectionAt: section) ?? UIColor.clear
+            attr.containerColor = delegate.collectionView?(self.collectionView!, layout: self, containerColorForSectionAt: section) ?? UIColor.clear
+            attr.subColor = delegate.collectionView?(self.collectionView!, layout: self, subColorForSectionAt: section) ?? UIColor.clear
+            attr.appearance = delegate.collectionView?(self.collectionView!, layout: self, layerAppearanceForSectionAt: section) ?? LRLayerAppearance()
+            attr.edgeInsets = delegate.collectionView?(self.collectionView!, layout: self, containerInsetForSectionAt: section) ?? .zero
+            attr.subInsets = delegate.collectionView?(self.collectionView!, layout: self, subInsetForSectionAt: section) ?? .zero
 
             self.decorationViewAttrs.append(attr)
         }
