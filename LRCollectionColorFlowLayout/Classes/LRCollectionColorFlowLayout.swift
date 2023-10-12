@@ -3,7 +3,8 @@ import UIKit
 
 private let SectionBackground = "LRCollectionReusableView"
 
-public struct LRLayerAppearance: Comparable {
+@objcMembers
+public class LRLayerAppearance: NSObject {
     public static func < (lhs: LRLayerAppearance, rhs: LRLayerAppearance) -> Bool {
         return true
     }
@@ -19,13 +20,13 @@ public struct LRLayerAppearance: Comparable {
     }
 }
 
-public protocol LRCollectionViewDelegateFlowLayout: UICollectionViewDelegateFlowLayout {
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, backgroundColorForSectionAt section: Int) -> UIColor
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, containerColorForSectionAt section: Int) -> UIColor
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, subColorForSectionAt section: Int) -> UIColor
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, layerAppearanceForSectionAt section: Int) -> LRLayerAppearance
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, containerInsetForSectionAt section: Int) -> UIEdgeInsets
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, subInsetForSectionAt section: Int) -> UIEdgeInsets
+@objc public protocol LRCollectionViewDelegateFlowLayout: UICollectionViewDelegateFlowLayout {
+    @objc optional func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, backgroundColorForSectionAt section: Int) -> UIColor
+    @objc optional func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, containerColorForSectionAt section: Int) -> UIColor
+    @objc optional func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, subColorForSectionAt section: Int) -> UIColor
+    @objc optional func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, layerAppearanceForSectionAt section: Int) -> LRLayerAppearance
+    @objc optional func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, containerInsetForSectionAt section: Int) -> UIEdgeInsets
+    @objc optional func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, subInsetForSectionAt section: Int) -> UIEdgeInsets
 }
 
 extension LRCollectionViewDelegateFlowLayout {
@@ -119,6 +120,7 @@ private class LRCollectionReusableView: UICollectionReusableView {
     }
 }
 
+@objcMembers
 public class LRCollectionColorFlowLayout: UICollectionViewFlowLayout {
 
     private var decorationViewAttrs: [UICollectionViewLayoutAttributes] = []
